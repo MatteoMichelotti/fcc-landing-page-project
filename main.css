@@ -15,13 +15,15 @@ html, body {
 }
 
 #header {
-    height: 60px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     border: 1px solid red;
 }
 
 #brand-wrapper {
+    height: 70px;
+    width: 360px;
     border: 1px solid white;
 }
 
@@ -40,7 +42,6 @@ html, body {
 }
 
 #navigation {
-    width: 60%;
     border: 1px solid white;
-
+    display: flex;
 }
